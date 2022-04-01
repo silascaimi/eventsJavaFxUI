@@ -1,4 +1,4 @@
 module br.com.silascaimi.eventsJavaFx {
-    requires javafx.controls;
+    requires transitive javafx.controls;
     exports br.com.silascaimi.eventsJavaFx;
 }
